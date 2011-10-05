@@ -4,7 +4,7 @@
     { "name": "Alex Whitman", "email": "alex@alexwhitman.com" },
     { "name": "Paul Dixon", "email": "paul.dixon@mintbridge.co.uk" }
   ],
-  "name": "dobot-github",
+  "name": "dobot-module-github",
   "description": "A dobot command library for interacting with the GitHub API",
   "version": "0.0.0",
   "homepage": "http://dobot.github.com/",
