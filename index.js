@@ -8,8 +8,8 @@ module.exports = function(bot) {
 
 	githubModule.load = function() {
 		require('./lib/users.js')(bot, this, github);
-	}
+	};
 
 	return githubModule;
 
-}
+};
