@@ -4,12 +4,12 @@ var github = new GitHubApi(true);
 
 module.exports = function(bot) {
 
-	githubModule = new bot.Module();
+	var module = new bot.Module();
 
-	githubModule.load = function() {
+	module.load = function() {
 		require('./lib/users.js')(bot, this, github);
 	};
 
-	return githubModule;
+	return module;
 
 };
