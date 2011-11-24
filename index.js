@@ -1,6 +1,6 @@
 var GitHubApi = require("github").GitHubApi;
 
-var github = new GitHubApi(true);
+var github = new GitHubApi();
 
 module.exports = function(bot, module) {
 
