@@ -10,7 +10,7 @@
   "homepage": "http://dobot.github.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dobot/dobot.git"
+    "url": "git://github.com/dobot/dobot-module-github.git"
   },
   "keywords": ["bot"],
   "engines": {
